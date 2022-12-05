@@ -211,7 +211,7 @@ local config = {
             ["<C-PageUp>"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
             ["<leader>as"] = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Search Text in Current File" },
             ["<leader>af"] = { "<cmd>set autochdir | !xdg-open $(pwd)<cr>", desc = "Open File Manager in Current file" },
-            ["<leader>ae"] = { "<cmd>set autochdir<cr>", desc = "Set Directory to Current File Directory" },
+            ["<leader>ac"] = { "<cmd>set autochdir<cr>", desc = "Set Directory to Current File Directory" },
 
 
             -- quick save
