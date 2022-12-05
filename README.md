@@ -1,6 +1,19 @@
 # My AstroNvim Configuration
 ## Screenshot
 ![gmbr](gmbr.jpg) 
+## How To Install
+I. clone this repository 
+- `git clone git@github.com:cyvas8x/astronvim_config.git ~/.config/nvim/lua/user/`
+
+II. Sync The Package To download All Plugins
+- :PackerSync
+
+III. Install LSP and TS for Snippet and autocomplete
+- :LspInstall <language_to_install>
+- :TSInstall <language_to_install>
+
+IIII. DONE
+
 ## General Mappings
 
 | Action                                  | Mappings                      |
