@@ -9,6 +9,9 @@ II. clone this repository
 - `git clone git@github.com:cyvas8x/astronvim_config.git ~/.config/nvim/lua/user/`
 
 III. Sync The Package To download All Plugins
+- `nvim +PackerSync`
+
+or
 - :PackerSync
 
 IIII. Install LSP and TS for Snippet and autocomplete
