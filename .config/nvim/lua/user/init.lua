@@ -26,7 +26,7 @@ local config = {
   },
 
   -- Set colorscheme to use
-  colorscheme = "default_theme",
+  colorscheme = "tokyonight-night",
 
   -- Add highlight groups in any theme
   highlights = {
@@ -42,7 +42,7 @@ local config = {
   options = {
     opt = {
       -- set to true or false etc.
-      relativenumber = true, -- sets vim.opt.relativenumber
+      relativenumber = false, -- sets vim.opt.relativenumber
       number = true, -- sets vim.opt.number
       spell = false, -- sets vim.opt.spell
       signcolumn = "auto", -- sets vim.opt.signcolumn to auto
@@ -205,12 +205,20 @@ local config = {
       ["<leader>bc"] = { "<cmd>BufferLinePickClose<cr>", desc = "Pick to close" },
       ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
       ["<leader>bt"] = { "<cmd>BufferLineSortByTabs<cr>", desc = "Sort by tabs" },
+	  -- SETTINGAN KU / MY SETTINGS
+      ["<leader>fc"] = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Search Word in this file" },
+      ["<BS>"] = {"db", desc = "CTRL + BackSpace Alternative"},
+      ["<leader>fs"] = {"<cmd>set autochdir<cr>", desc = "Set directory to current file directory"},
+      ["<leader>o"] = {"<cmd>!xdg-open $(pwd)<cr>", desc = "Open File Manager in Current file"}
       -- quick save
       -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     },
     t = {
       -- setting a mapping to false will disable it
       -- ["<esc>"] = false,
+    },
+    i = {
+          ["qw"] = { "<esc>", desc = "Ke Visual Mode" },
     },
   },
 
