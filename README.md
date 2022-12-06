@@ -1,7 +1,7 @@
 # My AstroNvim Configuration
 ## Screenshot
 ![gmbr](gmbr.jpg) 
-## How To Install
+## Installation
 1. Backup before Installation
    - `mv ~/.config/nvim/lua/user/ ~/.config/nvim/lua/user_Backup`
 
