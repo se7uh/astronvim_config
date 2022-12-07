@@ -3,16 +3,22 @@
 ![](gmbr.jpg) 
 ## Installation
 1. Backup before Installation
-   - `mv ~/.config/nvim/lua/user/ ~/.config/nvim/lua/user_Backup`
+   ```
+   mv ~/.config/nvim/lua/user/ ~/.config/nvim/lua/user_Backup
+   ```
 
 2. clone this repository 
 
-   - `git clone git@github.com:cyvas8x/astronvim_config.git ~/.config/nvim/lua/user/`
+   ```
+   git clone git@github.com:cyvas8x/astronvim_config.git ~/.config/nvim/lua/user/
+   ```
 
 3. Sync The Package To download All Plugins
-   - `nvim +PackerSync`
+   ```
+   nvim +PackerSync
+   ```
 
-4. Install LSP and TS for Snippet and autocomplete (optional)
+4. Install LSP and TS for Snippet and autocomplete **(optional)**
    - :LspInstall <language_to_install>
    - :TSInstall <language_to_install>
 
