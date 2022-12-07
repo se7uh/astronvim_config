@@ -1,6 +1,6 @@
 # My AstroNvim Configuration
 ## Screenshot
-![gmbr](gmbr.jpg) 
+![](gmbr.jpg) 
 ## Installation
 1. Backup before Installation
    - `mv ~/.config/nvim/lua/user/ ~/.config/nvim/lua/user_Backup`
@@ -12,21 +12,21 @@
 3. Sync The Package To download All Plugins
    - `nvim +PackerSync`
 
-4. Install LSP and TS for Snippet and autocomplete
+4. Install LSP and TS for Snippet and autocomplete (optional)
    - :LspInstall <language_to_install>
    - :TSInstall <language_to_install>
 
 5. DONE
 
-## General Mappings
+## Mappings
 
 | Action                                  | Mappings                      |
 | ---------------                         | ----------------              |
 | Escape key                              | `jk, jj, qw`                  |
 | Next Buffer                             | `Ctrl + PageDown` or `Shift-L`|
 | Previous Buffer                         | `Ctrl + PageUp` or `Shift-H`  |
-| Open File Manager in current file       | `Space + af`                  |
-| Search Text in current File             | `Space + as`                  |
+| Open File Manager in current file       | `Space + ae`                  |
+| Search Text in current File             | `Space + af`                  |
 | Set Directory to Current File Directory | `Space + ac`                  |
 
 Go to `Space + a` to get My Custom Config List
