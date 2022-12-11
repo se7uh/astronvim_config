@@ -1,6 +1,6 @@
 # My AstroNvim Configuration
 ## Screenshot
-![](gmbr.jpg) 
+![](https://images2.imgbox.com/34/da/SlHiuWWI_o.jpg) 
 ## Installation
 1. Backup before Installation
    ```
