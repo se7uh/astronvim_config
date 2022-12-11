@@ -2,6 +2,8 @@
 ## Screenshot
 ![](https://images2.imgbox.com/34/da/SlHiuWWI_o.jpg) 
 ## Installation
+0. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first if you haven't installed it
+
 1. Backup before Installation
    ```
    mv ~/.config/nvim/lua/user/ ~/.config/nvim/lua/user_Backup
