@@ -2,7 +2,7 @@
 ## Screenshot
 ![](https://images2.imgbox.com/34/da/SlHiuWWI_o.jpg) 
 ## Installation
-0. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first if you haven't installed it
+0. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first, if you haven't installed it
 
 1. Backup before Installation
    ```
@@ -31,9 +31,9 @@
 | Action                                  | Mappings                      |
 | ---------------                         | ----------------              |
 | Escape key                              | `jk, jj, qw`                  |
-| Next Buffer                             | `Ctrl + PageDown` or `Shift-L`|
-| Previous Buffer                         | `Ctrl + PageUp` or `Shift-H`  |
-| Open File Manager in current file       | `Space + ae`                  |
+| Next Buffer                              | `Ctrl + PageDown` or `Shift-L`|
+| Previous Buffer                          | `Ctrl + PageUp` or `Shift-H`  |
+| Open File Manager in current file        | `Space + ae`                  |
 | Search Text in current File             | `Space + af`                  |
 | Set Directory to Current File Directory | `Space + ac`                  |
 
