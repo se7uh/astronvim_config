@@ -226,7 +226,9 @@ local config = {
                         -- ["<esc>"] = false,
                 },
                 i = {
-
+                ["qq"] = { "<cmd>:q<cr>", desc = "Quit inside Insert Mode" },
+                ["qw"] = { "<esc>", desc = "Go to Visual Mode" },
+                ["qs"] = { "<cmd>:w<cr>", desc = "Save inside Insert Mode" },
                 },
         },
 
@@ -363,9 +365,5 @@ local config = {
                 -- }
         end,
 }
---- CUSTOM CONFIG for imap ALTERNATIVE
-vim.api.nvim_set_keymap('i', 'qq', "<esc>:q<cr>", { noremap = true, silent = true });
-vim.api.nvim_set_keymap('i', 'qw', "<esc>", { noremap = true, silent = true });
-vim.api.nvim_set_keymap('i', 'qs', "<esc>:w<cr>i", { noremap = true, silent = true });
 
 return config
