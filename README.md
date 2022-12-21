@@ -28,7 +28,6 @@
 
 ## Mappings
 
-<<<<<<< HEAD
 | Action                                           | Mappings                      |
 | ---------------                                  | ----------------              |
 | Escape key ***(read note below)***               | `jk, jj, qw`                  |
@@ -39,19 +38,7 @@
 | Open File Manager in current file                | `Space + ae`                  |
 | Search Text in current File                      | `Space + af`                  |
 | Set Directory to Current File Directory          | `Space + ac`                  |
-=======
-| Action                                  | Mappings                      |
-| ---------------                         | ----------------              |
-| Escape key ***(note)***                 | `jk, jj, qw`                  |
-| Save inside Insert Mode ***(note)***    | `qs`                          |
-| Quit inside Insert Mode ***(note)***    | `qq`                          |
-| Next Buffer                             | `Ctrl + PageDown` or `Shift-L`|
-| Previous Buffer                         | `Ctrl + PageUp` or `Shift-H`  |
-| Open File Manager in current file       | `Space + ae`                  |
-| Search Text in current File             | `Space + af`                  |
-| Set Directory to Current File Directory | `Space + ac`                  |
-| Open legendary.nvim                     | `Space + al`                  |
->>>>>>> c46a80f146873e86a4e083a0609930e5355f6442
+| Open legendary.nvim                              | `Space + al`                  |
 
 ###  Note : if this annoying you, You can Delete This Mappings at Line 229-231
 
