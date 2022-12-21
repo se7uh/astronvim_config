@@ -20,9 +20,8 @@
    nvim +PackerSync
    ```
 
-5. Install LSP and TS for Snippet and autocomplete **(optional)**
+5. Install LSP Snippet and autocomplete **(optional)**
    - :LspInstall <language_to_install>
-   - :TSInstall <language_to_install>
 
 6. DONE
 
