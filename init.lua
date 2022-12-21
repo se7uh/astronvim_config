@@ -226,9 +226,9 @@ local config = {
                         -- ["<esc>"] = false,
                 },
                 i = {
-                ["qq"] = { "<cmd>:q<cr>", desc = "Quit inside Insert Mode" },
+                ["qq"] = { "<esc>:q<cr>", desc = "Quit inside Insert Mode" },
                 ["qw"] = { "<esc>", desc = "Go to Visual Mode" },
-                ["qs"] = { "<cmd>:w<cr>", desc = "Save inside Insert Mode" },
+                ["qs"] = { "<esc>:w<cr>", desc = "Save inside Insert Mode" },
                 },
         },
 
