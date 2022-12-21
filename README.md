@@ -38,6 +38,7 @@
 | Open File Manager in current file       | `Space + ae`                  |
 | Search Text in current File             | `Space + af`                  |
 | Set Directory to Current File Directory | `Space + ac`                  |
+| Open legendary.nvim                     | `Space + al`                  |
 
 #### (note) Note: if this annoying you, You can Delete This Config at Line 229-231
 
