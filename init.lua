@@ -226,9 +226,8 @@ local config = {
                         -- ["<esc>"] = false,
                 },
                 i = {
-                ["qq"] = { "<esc>:q<cr>", desc = "Quit inside Insert Mode" },
-                ["qw"] = { "<esc>", desc = "Go to Visual Mode" },
-                ["qs"] = { "<esc>:w<cr>", desc = "Save inside Insert Mode" },
+                        ["<C-s>"] = { "<cmd>w<cr>", desc = "Save inside Insert Mode" },
+                        ["<C-q>"] = { "<cmd>q<cr>", desc = "Quit inside Insert Mode" },
                 },
         },
 
@@ -241,6 +240,7 @@ local config = {
                         -- You can also add new plugins here as well:
                         -- Add plugins, the packer syntax without the "use"
                         -- { "andweeb/presence.nvim" },
+                        --
                         -- {
                         --   "ray-x/lsp_signature.nvim",
                         --   event = "BufRead",
@@ -258,13 +258,25 @@ local config = {
                         -- },
 
                         {
+
+                                config = function()
+                                        require("better_escape").setup()
+                                end,
+                                require("better_escape").setup {
+                                        mapping = { "qw", "jk", "jj" },
+                                        timeout = vim.o.timeoutlen,
+                                        clear_empty_lines = false,
+                                        keys = "<esc>",
+
+                                },
+
+                        },
+
+                        {
                                 "iamcco/markdown-preview.nvim",
                                 run = function() vim.fn["mkdp#util#install"]() end,
                         },
 
-                        -- { "iamcco/markdown-preview.nvim", run = "cd app && npm install",
-                        --     setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, },
-                        --
                         { "folke/tokyonight.nvim" },
 
                         {
@@ -273,6 +285,20 @@ local config = {
                                 -- requires = 'kkharji/sqlite.lua'
                         },
 
+                        {
+                                "folke/todo-comments.nvim",
+                                requires = "nvim-lua/plenary.nvim",
+                                config = function()
+                                        require("todo-comments").setup {
+                                                -- your configuration comes here
+                                                -- or leave it empty to use the default settings
+                                                -- refer to the configuration section below
+                                        }
+                                end
+                        },
+                        {
+                                "terryma/vim-multiple-cursors"
+                        },
                 },
                 -- All other entries override the require("<key>").setup({...}) call for default plugins
                 ["null-ls"] = function(config) -- overrides `require("null-ls").setup(config)`
