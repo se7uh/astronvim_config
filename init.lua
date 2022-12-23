@@ -16,7 +16,7 @@ local config = {
                 pin_plugins = nil, -- nil, true, false (nil will pin plugins on stable only)
                 skip_prompts = false, -- skip prompts about breaking changes
                 show_changelog = true, -- show the changelog after performing an update
-                auto_reload = false, -- automatically reload and sync packer after a successful update
+                auto_reload = true, -- automatically reload and sync packer after a successful update
                 auto_quit = false, -- automatically quit the current session after a successful update
                 -- remotes = { -- easily add new remotes to track
                 --   ["remote_name"] = "https://remote_url.come/repo.git", -- full remote url
@@ -26,7 +26,7 @@ local config = {
         },
 
         -- Set colorscheme to use
-        colorscheme = "tokyonight-night",
+        colorscheme = "tokyonight-moon",
 
         -- Add highlight groups in any theme
         highlights = {
@@ -228,6 +228,10 @@ local config = {
                 i = {
                         ["<C-s>"] = { "<cmd>w<cr>", desc = "Save inside Insert Mode" },
                         ["<C-q>"] = { "<cmd>q<cr>", desc = "Quit inside Insert Mode" },
+                        ["<S-End>"] = { "<esc>V", desc = "Quit inside Insert Mode" },
+                        ["<C-PageDown>"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
+                        ["<C-PageUp>"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
+
                 },
         },
 
@@ -258,10 +262,6 @@ local config = {
                         -- },
 
                         {
-
-                                config = function()
-                                        require("better_escape").setup()
-                                end,
                                 require("better_escape").setup {
                                         mapping = { "qw", "jk", "jj" },
                                         timeout = vim.o.timeoutlen,
@@ -269,7 +269,6 @@ local config = {
                                         keys = "<esc>",
 
                                 },
-
                         },
 
                         {
@@ -277,7 +276,9 @@ local config = {
                                 run = function() vim.fn["mkdp#util#install"]() end,
                         },
 
-                        { "folke/tokyonight.nvim" },
+                        {
+                                "folke/tokyonight.nvim"
+                        },
 
                         {
                                 'mrjones2014/legendary.nvim'
@@ -297,6 +298,9 @@ local config = {
                                 end
                         },
 
+                        {
+                                "mg979/vim-visual-multi"
+                        },
                 },
                 -- All other entries override the require("<key>").setup({...}) call for default plugins
                 ["null-ls"] = function(config) -- overrides `require("null-ls").setup(config)`
