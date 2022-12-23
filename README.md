@@ -33,7 +33,6 @@
 | ---------------                          | ----------------              |
 | Escape key                               | `jk, jj, qw`                  |
 | Save inside Insert Mode                  | `Ctrl + s`                    |
-| Quit inside Insert Mode                  | `Ctrl + q`                    |
 | Next Buffer                              | `Ctrl + PageDown` or `Shift-L`|
 | Previous Buffer                          | `Ctrl + PageUp` or `Shift-H`  |
 | Open File Manager in current file        | `Space + ae`                  |
