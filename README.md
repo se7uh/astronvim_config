@@ -1,7 +1,7 @@
 # My AstroNvim Configuration
-## Screenshot
+## 🌟 Screenshot
 ![](https://images2.imgbox.com/34/da/SlHiuWWI_o.jpg) 
-## Installation
+## 🛠️ Installation
 
 1. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first, if you haven't installed it
 
@@ -26,7 +26,7 @@
 
 6. DONE
 
-## Mappings
+## ⌨️  Mappings
 ### Insert Mode
 | Action                                   | Mappings                          |
 | ---------------                          | ----------------                  |
@@ -47,8 +47,8 @@
   
 Go to `Space + a` to get My Custom Config List
 
-## Plugins
-> ⚠️  You need to install ***tslib*** to make ***markdown-preview*** work : `npm i tslib`
+## ✨ Plugins
+> ⚠️  **For Termux User**, You need to install ***tslib*** to make ***markdown-preview*** work : `npm i tslib`
 
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
@@ -56,6 +56,6 @@ Go to `Space + a` to get My Custom Config List
 - [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments in your projects.
 - [vim-visual-multi](https://github.com/mg979/vim-visual-multi)  -  Multiple cursors plugin for vim/neovim.
 
-## Special Thanks
-- [AstroNvim](https://github.com/AstroNvim) 
+## ⭐ Credits
+- [AstroNvim](https://github.com/AstroNvim/AstroNvim) 
 - [awesome-nvim](https://github.com/rockerBOO/awesome-neovim)
