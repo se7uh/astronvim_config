@@ -206,7 +206,6 @@ local config = {
                         ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
                         ["<leader>bt"] = { "<cmd>BufferLineSortByTabs<cr>", desc = "Sort by tabs" },
                         -- SETTINGAN KU / MY SETTINGS
-                        ["<BS>"] = { "db", desc = "CTRL + BackSpace Alternative" },
                         ["<C-PageDown>"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
                         ["<C-PageUp>"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
                         ["<leader>af"] = { "<cmd>Telescope current_buffer_fuzzy_find<cr>",
