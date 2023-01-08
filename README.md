@@ -48,7 +48,7 @@
 Go to `Space + a` to get My Custom Config List
 
 ## ✨ Plugins
-> ⚠️  **For Termux User**, You need to install ***tslib*** to make ***markdown-preview*** work : `npm i tslib`
+> ⚠️  **For Termux User**, You need to install ***tslib*** to make ***markdown-preview*** work : `npm install -g tslib`
 
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
