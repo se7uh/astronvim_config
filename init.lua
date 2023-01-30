@@ -213,7 +213,6 @@ local config = {
                         ["<leader>ae"] = { "<cmd>set autochdir | !xdg-open .<cr>",
                                 desc = "Open File Manager in Current file" },
                         ["<leader>ac"] = { "<cmd>set autochdir<cr>", desc = "Set Directory to Current File Directory" },
-                        ["<leader>al"] = { "<cmd>Legendary<cr>", desc = "Open Legendary.nvim" },
 
 
 
@@ -277,12 +276,6 @@ local config = {
 
                         {
                                 "folke/tokyonight.nvim"
-                        },
-
-                        {
-                                'mrjones2014/legendary.nvim'
-                                -- sqlite is only needed if you want to use frecency sorting
-                                -- requires = 'kkharji/sqlite.lua'
                         },
 
                         {
