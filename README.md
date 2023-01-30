@@ -52,7 +52,6 @@ Go to `Space + a` to get My Custom Config List
 
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
-- [legendary.nvim](https://github.com/mrjones2014/legendary.nvim) - Define your keymaps, commands, and autocommands as simple Lua tables (like VS Code's Command Palette).
 - [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments in your projects.
 - [vim-visual-multi](https://github.com/mg979/vim-visual-multi)  -  Multiple cursors plugin for vim/neovim.
 
