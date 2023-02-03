@@ -43,7 +43,6 @@
 | Open File Manager in current file        | `Space + ae`                      |
 | Search Text in current File              | `Space + af`                      |
 | Set Directory to Current File Directory  | `Space + ac`                      |
-| Open legendary.nvim                      | `Space + al`                      |
   
 Go to `Space + a` to get My Custom Config List
 
