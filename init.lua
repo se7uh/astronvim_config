@@ -259,7 +259,7 @@ local config = {
                         --   end,
                         -- },
 
-                        {
+                                                { "max397574/better-escape.nvim",
                                 require("better_escape").setup {
                                         mapping = { "qw", "jk", "jj" },
                                         timeout = vim.o.timeoutlen,
@@ -268,6 +268,7 @@ local config = {
 
                                 },
                         },
+
 
                         {
                                 "iamcco/markdown-preview.nvim",
