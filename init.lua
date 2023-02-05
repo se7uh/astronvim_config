@@ -227,7 +227,8 @@ local config = {
       ["<S-End>"] = { "<esc>V", desc = "Quit inside Insert Mode" },
       ["<C-PageDown>"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
       ["<C-PageUp>"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
-
+      ["<C-z>"] = { "<cmd>u<cr>", desc = "Undo" },
+      ["<C-y>"] = { "<cmd>redo<cr>", desc = "Redo" },
     },
   },
 
