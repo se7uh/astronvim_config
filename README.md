@@ -33,6 +33,8 @@
 | Escape key                               | `jk, jj, qw`                      |
 | Save inside Insert Mode                  | `Ctrl + s`                        |
 | Quit inside Insert Mode                  | `Ctrl + q`                        |
+| Undo                                     | `Ctrl + z`                        |
+| Redo                                     | `Ctrl + y`                        |
 | Next Buffer                              | `Ctrl + PageDown`                 |  
 | Previous Buffer                          | `Ctrl + PageUp`                   |
 | Select This Line                         | `Shift + End`                     |
