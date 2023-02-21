@@ -256,15 +256,15 @@ local config = {
       --     require("lsp_signature").setup()
       --   end,
       -- },
-      { "max397574/better-escape.nvim",
-        require("better_escape").setup {
-          mapping = { "qw", "jk", "jj" },
-          timeout = vim.o.timeoutlen,
-          clear_empty_lines = false,
-          keys = "<esc>",
-
-        },
-      },
+--      { "max397574/better-escape.nvim",
+--        require("better_escape").setup {
+--          mapping = { "qw", "jk", "jj" },
+--          timeout = vim.o.timeoutlen,
+--         clear_empty_lines = false,
+--          keys = "<esc>",
+--
+--       },
+--      },
 
 
       {
