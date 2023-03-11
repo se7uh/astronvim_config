@@ -18,7 +18,7 @@
 
 4. Sync The Package To download All Plugins
    ```
-   nvim +PackerSync
+   nvim
    ```
 
 5. Install LSP for Snippet and autocomplete **(optional)**
@@ -58,4 +58,4 @@ Go to `Space + a` to get My Custom Config List
 
 ## ⭐ Credits
 - [AstroNvim](https://github.com/AstroNvim/AstroNvim) 
-- [awesome-nvim](https://github.com/rockerBOO/awesome-neovim)
+- [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
