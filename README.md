@@ -13,7 +13,7 @@
 3. clone this repository 
 
    ```
-   git clone https://github.com/cyvas8x/astronvim_config.git ~/.config/nvim/lua/user/
+   git clone https://github.com/npc-123/astronvim_config.git ~/.config/nvim/lua/user/
    ```
 
 4. Sync The Package To download All Plugins
