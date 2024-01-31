@@ -45,4 +45,8 @@ return {
   {
     "mg979/vim-visual-multi", lazy = false
   },
+  {
+    "Exafunction/codeium.vim",
+    event = 'BufEnter'
+  },
 }

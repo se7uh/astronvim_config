@@ -1,6 +1,4 @@
 # My AstroNvim Configuration
-## 🌟 Screenshot
-![](https://images2.imgbox.com/34/da/SlHiuWWI_o.jpg) 
 ## 🛠️ Installation
 
 1. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first, if you haven't installed it
@@ -38,6 +36,7 @@
 | Next Buffer                              | `Ctrl + PageDown`                 |  
 | Previous Buffer                          | `Ctrl + PageUp`                   |
 | Select This Line                         | `Shift + End`                     |
+| (Codeium) Accept Suggestion              | `Ctrl + x`                        |
 
 ### Normal Mode
 | Action                                   | Mappings                          |
@@ -55,6 +54,7 @@ Go to `Space + a` to get My Custom Config List
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins.
 - [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments in your projects.
 - [vim-visual-multi](https://github.com/mg979/vim-visual-multi)  -  Multiple cursors plugin for vim/neovim.
+- [codeium.vim](https://github.com/Exafunction/codeium.vim) - Free, ultrafast Copilot alternative for Vim and Neovim
 
 ## ⭐ Credits
 - [AstroNvim](https://github.com/AstroNvim/AstroNvim) 
