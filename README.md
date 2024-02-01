@@ -1,4 +1,8 @@
 # My AstroNvim Configuration
+## 🌟 Preview
+
+![Preview Image](https://astronvim.com/themes/overview.png)
+
 ## 🛠️ Installation
 
 1. You need to install [AstroNvim](https://github.com/AstroNvim/AstroNvim) first, if you haven't installed it
